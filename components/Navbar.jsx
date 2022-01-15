@@ -17,10 +17,10 @@ const Navbar = () => {
           <Link href="/">Home</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/comprar">Comprar</Link>
+          <Link href="/shop">Comprar</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/carrinho">
+          <Link href="/cart">
             <p>Carrinho ({getItemsCount()})</p>
           </Link>
         </li>
